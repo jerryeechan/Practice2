@@ -8,19 +8,15 @@ import java.util.ArrayList;
  * practice to inherit and
  */
 public class CharacterGenerator {
+    //no modifier is private
     ArrayList<AbstractCharacter> characterTemplates;
     public CharacterGenerator()
     {
         characterTemplates = new ArrayList<>();
-        AbstractCharacter ch = new NPC("","","");
         //TODO create some characters and put into the template list. At least one for each type of character
-        
+
     }
 
-    public AbstractCharacter getRandomCharacter()
-    {
-        int rNum = (int)(Math.random()*characterTemplates.size());
+    //TODO write a public method to return characterTemplates
 
-        return characterTemplates.get(rNum);
-    }
 }

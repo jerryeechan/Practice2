@@ -14,14 +14,14 @@ public class NPC extends AbstractCharacter {
 
     }
 
-
-
     public void interact()
     {
-
+        speak();
     }
 
     public void speak(){
-        //TODO say the quote of the NPC
+        //TODO NPC say something...
     }
+
+    //TODO override toString()
 }

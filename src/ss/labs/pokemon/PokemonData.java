@@ -10,9 +10,14 @@ public class PokemonData{
         this.type = type;
     }
 
-    public int id;
-    public String name;
-    public String type;
+    int id;
+    String name;
+    String type;
+    public int getId()
+    {
+        return id;
+    }
+    //TODO implement get function for name and type
 
 
 }
