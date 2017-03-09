@@ -10,6 +10,7 @@ import javax.lang.model.type.PrimitiveType;
 public class PokemonTrainer extends NPC{
     protected PokemonData pokemonData;
 
+    //TODO solve the error
     public PokemonTrainer(String name, String job, String quote, PokemonData data)
     {
 

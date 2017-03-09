@@ -7,6 +7,7 @@ public class NPC extends AbstractCharacter {
 
     //TODO more attributes are needed
 
+    //TODO solve the error
     public NPC(String name,String job,String quote){
         //TODO call super constructor
 

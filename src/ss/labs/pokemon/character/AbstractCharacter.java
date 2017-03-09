@@ -21,6 +21,8 @@ public abstract class AbstractCharacter {
 
     }
 
+    public abstract void showInformation();
+
     //Why do we need do use override here? if you don't know then find the answer
     //another way to concat variables into String: String.format("%d %s",1,"test");
     @Override

@@ -7,6 +7,6 @@ public class Main {
 
         //TODO get all characters from character generator
 
-        //TODO print out characters' information
+        //TODO print out characters' information, you can choose to use toString or showDescription
     }
 }
